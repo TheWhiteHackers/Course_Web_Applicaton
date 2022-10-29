@@ -3,12 +3,13 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
+    <title>Course Application</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Jost&family=Roboto+Slab:wght@300&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="shortcut icon" href="#">
 <style>
 h1{
     font-family: 'Roboto Slab', serif;
@@ -31,13 +32,13 @@ body{
         <div id="row">
             <div class="col-md-4">
                 <form action="" class="mt-4">
-                    <label for="">Course Name</label>
-                    <input type="text" class="form-control">
-                    <label for="" class="mt-2">Insturctor</label>
-                    <input type="text" class="form-control">
-                    <label for="" class="mt-2">Image</label>
-                    <input type="text" class="form-control">
-                    <button class="btn btn-outline-dark mt-3">Send</button>
+                    <label for="cname">Course Name</label>
+                    <input type="text" class="form-control" id="cname">
+                    <label for="cinstruct" class="mt-2">Insturctor</label>
+                    <input type="text" class="form-control" id="cinstruct">
+                    <label for="cpic" class="mt-2">Image</label>
+                    <input type="text" class="form-control" id="cpic">
+                    <button type="submit" id="button" class="btn btn-outline-dark mt-3">Send</button>
                 </form>
             </div>
 
@@ -49,9 +50,9 @@ body{
                             <th>Title</th>
                             <th>Instructor</th>
                         </tr>
-                        <td>hi there</td>
+                        <!-- <td>hi there</td>
                         <td>hello</td>
-                        <td>sup</td>
+                        <td>sup</td> -->
                     </thead>
                     <tbody id =tablebody>
 
